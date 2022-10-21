@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS | Canvas Treasure Hunt</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div>
+        <h2>Preparation for Development of a fun Game!</h2>
+        <p>Just by using pure HTML, CSS, and JavaScript.</p>
+
+        <hr />
+        <h2>Treasure Hunt</h2>
+        <p>Oho! Game Players! Try to find more treasure in few movements!</p>
+        <hr />
+        <p>Player 1 controls (Key Up, Down, left and Right)</p>
+        <p>Player 2 controls (Key W, S, A and D)</p>
+        <h2 id="score1">Your Score is:</h2>
+        <h2 id="score2">Your Score is:</h2>
+        <h2 id="count_time"></h2>
+      </div>
+      <div id="game_screen" class="screen" style="display: none">
+        <canvas width="500" height="500"></canvas>
+      </div>
+      <div id="game_over_screen" class="screen" style="display: none">
+        <h2>Game Over!</h2>
+        <button>Play Again!</button>
+      </div>
+      <div id="game_start_screen" class="screen">
+        <p>This Game is two Player and have Time-Constrain and Score</p>
+        <button>Start The Game</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Design and Developed by: Mojeeb Rahman Sedeqi at Ironhack Lab</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
